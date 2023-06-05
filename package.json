@@ -1,0 +1,16 @@
+{
+  "name": "newrelic-login",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "web-ext build --source-dir=src --overwrite-dest",
+    "run": "web-ext run --source-dir=src --devtools --verbose"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "web-ext": "^0.0.1"
+  }
+}

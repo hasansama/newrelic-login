@@ -1,0 +1,24 @@
+*.DS_Store
+# IntelliJ Idea generated files
+*.iml
+*.ipr
+*.iws
+.idea
+.subsplit
+*plugin.xml
+
+
+# Genel dosyalar
+node_modules/
+build/
+dist/
+web-ext-artifacts/
+src/web-ext-artifacts/
+
+# IDE dosyaları
+.vscode/
+.idea/
+
+# Sistem dosyaları
+.DS_Store
+Thumbs.db
